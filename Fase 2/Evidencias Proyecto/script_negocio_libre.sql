@@ -1,6 +1,9 @@
 CREATE TABLE USUARIO (
 	usuario_id INT NOT NULL PRIMARY KEY,
+	rut_usuario NUMBER(9) NOT NULL,
 	nombre_usuario VARCHAR(50) NOT NULL,
+	correo VARCHAR(85) NOT NULL,
+	clave VARCHAR(16) NOT NULL,
 	rol INT NOT NULL
 );
 
